@@ -9,4 +9,5 @@
     <string name="forgot_password_text">Forgot Password</string>
     <string name="choose_to_login_with_text">Choose to Login with</string>
     <string name="login_text">Login</string>
+    <string name="paw_text">KaPaw</string>
 </resources>

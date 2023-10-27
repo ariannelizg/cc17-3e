@@ -7,14 +7,6 @@
     android:background="@drawable/bg"
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:alpha="0.7"
-        android:background="@color/primary" >
-    </RelativeLayout>
-
-
 
     <RelativeLayout
         android:id="@+id/image_view"
@@ -22,18 +14,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/card_view">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="170dp"
-            android:importantForAccessibility="no"
-            android:src="@drawable/kapaw" />
-
-        <ImageView
-            android:layout_marginTop="180dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:importantForAccessibility="no"
-            android:src="@drawable/pets" />
 
     </RelativeLayout>
 
@@ -45,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="-20dp"
-        android:alpha="0.7"
+        android:alpha="0.6"
         app:cardCornerRadius="28dp"
         tools:ignore="VisualLintBounds">
 
@@ -74,9 +54,8 @@
                 android:layout_marginBottom="10dp"
                 android:alpha="0.8"
                 android:text="@string/login_your_information_text"
-                android:textColor="#795548"
+                android:textColor="#0C0C0C"
                 tools:ignore="TextContrastCheck" />
-
 
 
             <TextView
@@ -84,7 +63,9 @@
                 android:layout_height="wrap_content"
                 android:alpha="0.8"
                 android:text="@string/email_address_text"
-                android:textStyle="bold" />
+                android:textColor="#0E0E0E"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
 
             <EditText
                 android:id="@+id/Email"
@@ -102,7 +83,8 @@
                 android:layout_height="wrap_content"
                 android:alpha="0.8"
                 android:text="@string/password_text"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#0E0E0E"/>
 
             <EditText
                 android:id="@+id/Password"
@@ -124,7 +106,7 @@
                     android:layout_centerVertical="true"
                     android:alpha="0.8"
                     android:text="@string/remember_me_text"
-                    android:textColor="#795548"
+                    android:textColor="#0E0E0E"
                     tools:ignore="RelativeOverlap,TextContrastCheck" />
 
                 <TextView
@@ -134,7 +116,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:text="@string/forgot_password_text"
-                    tools:ignore="RelativeOverlap,TextContrastCheck" />
+                    tools:ignore="RelativeOverlap,TextContrastCheck"
+                    android:textColor="#0E0E0E"/>
             </RelativeLayout>
 
             <View
@@ -146,7 +129,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="@string/login_text"
-                tools:ignore="TextContrastCheck,VisualLintButtonSize" />
+                tools:ignore="TextContrastCheck,VisualLintButtonSize"
+                android:textColor="#0E0E0E"/>
 
 
             <TextView
@@ -156,7 +140,8 @@
                 android:layout_gravity="center"
                 android:alpha="0.8"
                 android:text="@string/choose_to_login_with_text"
-                tools:ignore="TextContrastCheck,TextContrastCheck" />
+                tools:ignore="TextContrastCheck,TextContrastCheck"
+                android:textColor="#0E0E0E"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
