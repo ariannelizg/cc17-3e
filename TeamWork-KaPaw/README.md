@@ -10,3 +10,6 @@
  - Updated Login Page
  - Add User Stories
 
+### 2023/10/27
+ - Updated Login Screenshot
+
