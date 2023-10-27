@@ -4,6 +4,7 @@
 
 ### 2023/10/23
  - Created KaPaw project
+ - Updated Login Page
 
 ### 2023/10/25
  - Updated Login Page
