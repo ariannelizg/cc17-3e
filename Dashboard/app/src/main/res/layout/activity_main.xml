@@ -18,181 +18,185 @@
         android:text="@string/dashboard_text"
         android:textSize="40sp" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/faqCard"
-        android:layout_width="160dp"
-        android:layout_height="170dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="120dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
 
-        <TextView
-            android:id="@+id/faqText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="125dp"
-            android:layout_marginStart="40dp"
-            android:fontFamily="@font/baloo"
-            android:text="@string/faqs"
-            android:textSize="32sp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/faqCard"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="120dp">
 
-        <ImageView
-            android:id="@+id/faqImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            app:srcCompat="@drawable/contacts"
-            android:importantForAccessibility="no" />
+            <TextView
+                android:id="@+id/faqText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/faqs"
+                android:textSize="32sp" />
 
-    </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/faqImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/contacts" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/contactsCard"
-        android:layout_width="160dp"
-        android:layout_height="170dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="185dp"
-        android:layout_marginTop="120dp">
+        </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:id="@+id/contactsText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="125dp"
-            android:fontFamily="@font/baloo"
-            android:text="@string/contacts"
-            android:textSize="32sp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/contactsCard"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="120dp">
 
-        <ImageView
-            android:id="@+id/contactsImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/contact"
-            android:layout_marginBottom="60dp"
-            android:importantForAccessibility="no" />
+            <TextView
+                android:id="@+id/contactsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/contacts"
+                android:textSize="32sp" />
 
-    </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/contactsImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/contact" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/firstCard"
-        android:layout_width="160dp"
-        android:layout_height="170dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="320dp">
+        </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:id="@+id/firstText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="120dp"
-            android:fontFamily="@font/baloo"
-            android:text="@string/first_aid"
-            android:textSize="32sp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstCard"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="320dp">
 
-        <ImageView
-            android:id="@+id/firstImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/first"
-            tools:ignore="ImageContrastCheck" />
+            <TextView
+                android:id="@+id/firstText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/first_aid"
+                android:textSize="32sp" />
 
-    </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/firstImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/first"
+                tools:ignore="ImageContrastCheck" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/nutritionCard"
-        android:layout_width="160dp"
-        android:layout_height="170dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="185dp"
-        android:layout_marginTop="320dp">
+        </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:id="@+id/nutritionText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="120dp"
-            android:fontFamily="@font/baloo"
-            android:text="@string/nutrition"
-            android:textSize="32sp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/nutritionCard"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="320dp">
 
-        <ImageView
-            android:id="@+id/nutritionImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            app:srcCompat="@drawable/nutrition"
-            android:importantForAccessibility="no" />
+            <TextView
+                android:id="@+id/nutritionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/nutrition"
+                android:textSize="32sp" />
 
-    </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/nutritionImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/nutrition" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/adoptionsCard"
-        android:layout_width="160dp"
-        android:layout_height="170dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="520dp">
+        </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:id="@+id/adoptionsText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="120dp"
-            android:fontFamily="@font/baloo"
-            android:text="@string/adoptions"
-            android:textSize="32sp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/adoptionsCard"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="520dp">
 
-        <ImageView
-            android:id="@+id/adoptionsImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            app:srcCompat="@drawable/adopt"
-            android:importantForAccessibility="no" />
+            <TextView
+                android:id="@+id/adoptionsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/adoptions"
+                android:textSize="32sp" />
 
-    </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/adoptionsImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/adopt" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/checkCard"
-        android:layout_width="160dp"
-        android:layout_height="170dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="185dp"
-        android:layout_marginTop="520dp">
+        </androidx.cardview.widget.CardView>
 
-
-    <TextView
-            android:id="@+id/checkText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="13dp"
-            android:layout_marginTop="120dp"
-            android:fontFamily="@font/baloo"
-            android:text="@string/checklist"
-            android:textSize="32sp" />
-
-        <ImageView
-            android:id="@+id/checkImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            app:srcCompat="@drawable/checklist"
-            android:importantForAccessibility="no" />
-
-    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/checkCard"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="520dp">
 
 
+            <TextView
+                android:id="@+id/checkText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/checklist"
+                android:textSize="32sp" />
+
+            <ImageView
+                android:id="@+id/checkImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/checklist" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
 </RelativeLayout>
