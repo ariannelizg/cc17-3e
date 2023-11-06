@@ -14,3 +14,8 @@
  - Updated Login Screenshot
  - Started Designing the Dashboard
 
+### 2023/11/06
+ - Started layouting Adoption
+ - Started layouting Checklist
+ - Finished layouting FAQs
+ - Dashboard done
