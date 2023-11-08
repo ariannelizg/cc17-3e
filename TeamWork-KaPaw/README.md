@@ -19,3 +19,8 @@
  - Started layouting Checklist
  - Finished layouting FAQs
  - Dashboard done
+
+### 2023/11/08
+ - Adoptions done
+ - Checklist done
+ - Started intents
