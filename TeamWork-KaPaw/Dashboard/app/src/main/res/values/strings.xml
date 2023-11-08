@@ -9,4 +9,17 @@
     <string name="adoptions">Adoptions</string>
     <string name="checklist">Checklist</string>
 
+
+    <string name="Frequently_text">Frequently Asked Questions</string>
+    <string name="for_dogs_text">For Dogs</string>
+    <string name="for_cats">For Cats</string>
+    <string name="adoptions_text">Adoptions</string>
+    <string name="ace_text">Ace</string>
+    <string name="blossom_text">Blossom</string>
+    <string name="coco_text">Coco</string>
+    <string name="ikue_text">Ikue</string>
+    <string name="ponpon_text">Ponpon</string>
+    <string name="pumpkin_text">Pumpkin</string>
+
+
 </resources>
