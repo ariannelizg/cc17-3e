@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="@string/Frequently_text"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textSize="34sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="280dp"
+            android:layout_alignParentTop="true"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="30dp">
+
+
+            <ImageView
+                android:id="@+id/dogs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                app:srcCompat="@drawable/dogs"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                android:id="@+id/dogsText"
+                android:layout_width="203dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="215dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/for_dogs_text"
+                android:textAlignment="center"
+                android:textSize="38sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="300dp"
+            android:layout_width="300dp"
+            android:layout_height="280dp"
+            android:layout_alignParentTop="true"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="30dp"
+            app:cardMaxElevation="10dp">
+
+            <ImageView
+                android:id="@+id/cats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/cats" />
+
+            <TextView
+                android:id="@+id/catsText"
+                android:layout_width="203dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="215dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/for_cats"
+                android:textAlignment="center"
+                android:textSize="38sp" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

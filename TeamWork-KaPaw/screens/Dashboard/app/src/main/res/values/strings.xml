@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="dashboard_text">DASHBOARD</string>
+    <string name="faqs">FAQs</string>
+    <string name="contacts">Contacts</string>
+    <string name="app_name" />
+    <string name="first_aid">First Aid</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="adoptions">Adoptions</string>
+    <string name="checklist">Checklist</string>
+
+
+    <string name="Frequently_text">Frequently Asked Questions</string>
+    <string name="for_dogs_text">For Dogs</string>
+    <string name="for_cats">For Cats</string>
+    <string name="adoptions_text">Adoptions</string>
+    <string name="ace_text">Ace</string>
+    <string name="blossom_text">Blossom</string>
+    <string name="coco_text">Coco</string>
+    <string name="ikue_text">Ikue</string>
+    <string name="ponpon_text">Ponpon</string>
+    <string name="pumpkin_text">Pumpkin</string>
+
+    <string name="remember_me_text">Remember me</string>
+    <string name="kapaw_text">KaPaw</string>
+    <string name="welcome_text">WELCOME</string>
+    <string name="login_your_information_text">Login your information</string>
+    <string name="email_address_text">Email Address</string>
+    <string name="password_text">Password</string>
+    <string name="forgot_password_text">Forgot Password</string>
+    <string name="choose_to_login_with_text">Choose to Login with</string>
+    <string name="login_text">Login</string>
+    <string name="paw_text">KaPaw</string>
+
+
+</resources>

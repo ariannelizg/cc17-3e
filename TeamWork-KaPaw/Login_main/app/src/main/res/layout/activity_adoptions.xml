@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/adoptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="621dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/adoptions_text"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/coco"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="414dp"
+        android:duplicateParentState="true">
+
+        <TextView
+            android:id="@+id/cocoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/coco_text"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/cocoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/coco" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ace"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="414dp"
+        android:duplicateParentState="true">
+
+        <TextView
+            android:id="@+id/aceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/ace_text"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/aceImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/ace" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blossom"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="414dp"
+        android:duplicateParentState="true">
+
+        <TextView
+            android:id="@+id/blossomText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/blossom_text"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/blossomImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/blossom" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ikue"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="414dp"
+        android:duplicateParentState="true">
+
+        <TextView
+            android:id="@+id/ikueText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/ikue_text"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/ikueImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/ace" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ponpon"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="414dp"
+        android:duplicateParentState="true">
+
+        <TextView
+            android:id="@+id/ponponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/ponpon_text"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/ponponImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/ponpon" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pumpkin"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="414dp"
+        android:duplicateParentState="true">
+
+        <TextView
+            android:id="@+id/pumpkinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/pumpkin_text"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/pumpkinImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/pumpkin" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
