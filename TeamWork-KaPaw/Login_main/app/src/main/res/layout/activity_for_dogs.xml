@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+
+
+    <TextView
+        android:id="@+id/FaqsForDogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="FAQ's For Dogs"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/FaqsDogsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/_1_how_can_i_crate_train_my_puppy"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/FaqsDogsAnswer"
+        android:layout_width="400dp"
+        android:layout_height="136dp"
+        android:layout_below="@+id/FaqsDogsText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="440dp"
+        android:text="@string/start_as_soon_as_you_bring_your_new_puppy_home_purchase_a_crate_that_will_accommodate_him_as_he_grows_and_use_boxes_to_take_up_the_excess_space_remove_them_as_he_gets_bigger_give_him_an_interesting_toy_once_he_s_in_the_crate_that_he_only_gets_when_he_s_there"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/FaqsDogsTextTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:fontFamily="sans-serif"
+        android:text="2. What vaccinations do puppies need?"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/FaqsDogsAnswerTwo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/FaqsDogsTextTwo"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="179dp"
+        android:text="“Core” vaccinations for puppies are against parvovirus, distemper virus, and rabies. The parvo and distemper vaccines are typically combined into one shot. Puppies need a series of 3 of these vaccines to be fully protected, they are typically given at 8, 12, and 16 weeks of age.
+Vaccination against rabies is also critical. Puppies need one vaccination against rabies at 16 weeks.
+"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/FaqsDogsTextThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:fontFamily="sans-serif"
+        android:text="3. What is the best age to start training my dog?"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/FaqsDogsAnswerThree"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_below="@+id/FaqsDogsTextThree"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-105dp"
+        android:text="The best age to start training a dog is during the puppy stage, which is typically between 8 and 16 weeks old. At this age, puppies are highly adaptable and have a natural desire to learn, making it easier to teach them new things. Additionally, early training can help prevent behavior problems from developing later on.
+"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>
