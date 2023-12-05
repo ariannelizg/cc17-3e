@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1009269417569",
+    "project_id": "register-eda80",
+    "storage_bucket": "register-eda80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009269417569:android:4f421863524a364973ac20",
+        "android_client_info": {
+          "package_name": "com.example.loginpage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxoi34-VfU8wiCgXid4I6FPHBhgaxXJiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/firstaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/first_aid"
+            android:textSize="48sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstaidCard1"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/firstaidText1"
+                android:layout_width="156dp"
+                android:layout_height="82dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="88dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/dog_first_aid_5_essential_emergency_skills1"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/firstaidImage1"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:contentDescription="@string/firstaid1"
+                app:srcCompat="@drawable/firstaid1"
+                tools:ignore="ImageContrastCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstaidCard2"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="120dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/firstaidText2"
+                android:layout_width="156dp"
+                android:layout_height="82dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="88dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/dog_cpr_how_to_resuscitate_your_pet"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/firstaidImage2"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:contentDescription="@string/firstaid2"
+                app:srcCompat="@drawable/firstaid2"
+                tools:ignore="ImageContrastCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstaidCard3"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="320dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/firstaidText3"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/dog_in_shock_what_to_do"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/firstaidImage3"
+                android:layout_width="wrap_content"
+                android:layout_height="95dp"
+                android:contentDescription="@string/firstaid3"
+                app:srcCompat="@drawable/firstaid3"
+                tools:ignore="ImageContrastCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstaidCard4"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="320dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/firstaidText4"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/choking_cat_what_to_do"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/firstaidImage4"
+                android:layout_width="wrap_content"
+                android:layout_height="93dp"
+                android:contentDescription="@string/firstaid4"
+                app:srcCompat="@drawable/firstaid4"
+                tools:ignore="ImageContrastCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstaidCard5"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="520dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/firstaidText5"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/emergency_cat_care_10_first_aid_tips_for_cat_owners"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/firstaidImage5"
+                android:layout_width="wrap_content"
+                android:layout_height="98dp"
+                android:contentDescription="@string/firstaid5"
+                app:srcCompat="@drawable/firstaid5"
+                tools:ignore="ImageContrastCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstaidCard6"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="520dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/firstaidText6"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/heat_stroke_in_cats_symptoms_and_first_aid"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"
+                app:srcCompat="@drawable/firstaid6" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

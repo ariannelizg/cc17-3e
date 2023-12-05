@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/VegetablesTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/vegetables"
+                android:textSize="48sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/VegeText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/carrots"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/VegeText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/green_beans"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/VegeText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/spinach"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/VegeText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/peas"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/VegeText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/celery"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/VegeText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/cucumberss"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/VegeText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/pumpkin"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/VegeText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/sweet_potato"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/VegeText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/corn"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

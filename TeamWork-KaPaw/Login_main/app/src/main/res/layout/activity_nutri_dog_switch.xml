@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/MakingTheSwitchTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/making_the_switch"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/SwitchText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/a_good_thing_to_remember"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/SwitchText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/day_1_mix_20"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/SwitchText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/day_2_mix_40"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/SwitchText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/day_3_mix_50"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/SwitchText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/day_4_mix_60"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/SwitchText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/day_5_mix_80"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/SwitchText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/day_6_feed_100_of_the_new_food"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

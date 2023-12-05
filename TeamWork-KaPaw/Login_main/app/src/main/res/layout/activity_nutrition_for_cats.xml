@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nutriForCats"
+                android:layout_width="410dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="124dp"
+                android:layout_marginBottom="620dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:gravity="center"
+                android:text="For Cats"
+                android:textSize="60dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-600dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/catsproteinCard"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="30dp">
+
+                    <ImageView
+                        android:id="@+id/catsproteinImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/protein_photo" />
+
+                    <TextView
+                        android:id="@+id/catsteinText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="115dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:gravity="center"
+                        android:text="Protein"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/catsveggieCard"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="190dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="30dp">
+
+                    <ImageView
+                        android:id="@+id/catsveggieImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/veg_photo" />
+
+                    <TextView
+                        android:id="@+id/catsveggieText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="115dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:gravity="center"
+                        android:text="Vegetables"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/catscarboCard"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+
+                    android:layout_marginTop="180dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="30dp">
+
+                    <ImageView
+                        android:id="@+id/catscarboImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/carbo_photo" />
+
+                    <TextView
+                        android:id="@+id/catscarboText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="115dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:gravity="center"
+                        android:text="Carbohydrates"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/catscalciumCard"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="190dp"
+                    android:layout_marginTop="180dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="30dp">
+
+                    <ImageView
+                        android:id="@+id/catscalciumImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/calcium_photo" />
+
+                    <TextView
+                        android:id="@+id/catscalciumText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="115dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:gravity="center"
+                        android:text="Calcium"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/catsotherCard"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+
+                    android:layout_marginTop="360dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="30dp">
+
+                    <ImageView
+                        android:id="@+id/catsotherImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/other_photo" />
+
+                    <TextView
+                        android:id="@+id/catsotherText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="115dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:gravity="center"
+                        android:text="Other Foods"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/catsavoidCard"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="190dp"
+                    android:layout_marginTop="360dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="30dp">
+
+                    <ImageView
+                        android:id="@+id/catsavoidImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/avoid_photo" />
+
+                    <TextView
+                        android:id="@+id/catsavoidText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="115dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:gravity="center"
+                        android:text="Ingredients to Avoid"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/catsaddCard"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+
+                    android:layout_marginTop="540dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="30dp">
+
+                    <ImageView
+                        android:id="@+id/catsaddImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/add_photo" />
+
+                    <TextView
+                        android:id="@+id/catsaddText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="115dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:gravity="center"
+                        android:text="Cat Food Add-ins"
+                        android:textSize="20dp" />
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

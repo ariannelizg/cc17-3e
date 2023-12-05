@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CarbohydrateTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/carbohydrate"
+            android:textAlignment="center"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/CarboText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/sweet_potatoes"
+            android:textSize="30sp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:id="@+id/CarboText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/oatmeal"
+            android:textSize="30sp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:id="@+id/CarboText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/brown_rice"
+            android:textSize="30sp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:id="@+id/CarboText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/quinoa"
+            android:textSize="30sp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:id="@+id/CarboText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/whole_grains"
+            android:textSize="30sp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:id="@+id/CarboText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/corn"
+            android:textSize="30sp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:id="@+id/CarboText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/wheat"
+            android:textSize="30sp"
+            android:layout_marginStart="30dp"/>
+    </LinearLayout>
+</RelativeLayout>

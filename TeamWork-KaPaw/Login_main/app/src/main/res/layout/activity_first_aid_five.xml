@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:orientation="vertical">
+
+                <WebView
+                    android:id="@+id/FirstAidFive"
+                    android:layout_width="411dp"
+                    android:layout_height="240dp"
+                    android:layout_marginStart="-3dp"
+                    android:layout_marginTop="50dp" />
+
+                <TextView
+                    android:id="@+id/firstaidText5"
+                    android:layout_width="357dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="@string/emergency_cat_care_10_first_aid_tips_for_cat_owners"
+                    android:textAlignment="center"
+                    android:textSize="35sp"
+                    tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/firstaidCard2"
+                    android:layout_width="139dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="227dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#E0CDFF"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/firstaidName"
+                        android:layout_width="match_parent"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:text="@string/furrybuzz"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        tools:ignore="TextSizeCheck" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/firstaidCard1"
+                    android:layout_width="139dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="46dp"
+                    android:layout_marginTop="-30dp"
+                    app:cardBackgroundColor="#FFEBCD"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/firstaidDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:text="@string/september_19_2023"
+                        android:textAlignment="center"
+                        android:textSize="15sp"
+                        tools:ignore="TextSizeCheck" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/firstaidDescript4"
+                    android:layout_width="370dp"
+                    android:layout_height="220dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="@string/as_a_cat_owner_you_want_to_keep_your_furry_friend_safe_and_healthy"
+                    android:textSize="15sp"
+                    tools:ignore="TextSizeCheck,VisualLintLongText" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

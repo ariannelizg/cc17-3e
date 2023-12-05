@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/AddInsTitleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="@string/cat_food_add_ins"
+                    android:textAlignment="center"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:id="@+id/AddInsText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="@string/things_you_can_add"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/AddInsText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/fish_oil"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/AddInsText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/turmeric_"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/AddInsText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/coconut_oil_"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/AddInsText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/blueberries"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

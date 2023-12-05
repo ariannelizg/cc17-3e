@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/OtherFoodsTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/other_foods"
+                android:textSize="48sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/OtherText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/coconut"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/coconut_milk"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/coconut_oil"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/honey"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/fruits"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/peanuts"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/peanut_butter_in_moderation"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/note"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/OtherText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/avoid_salted_peanuts"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/unsalted_unbuttered"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/CalciumTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/calcium"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/CalciumText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/cottage_cheese"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/plain_yogurt"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/broccoli"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/bones"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/dark_leafy_greens"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/fish"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/chicken"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/eggs"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/note"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/watch_for_signs"
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/CalciumText11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/avoid_or_use_caution_with_amounts_for_higher_fat_options_like_ice_cream_and_cheese"
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

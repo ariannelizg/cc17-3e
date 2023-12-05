@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/OtherFoodsTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/other_foods"
+                android:textAlignment="center"
+                android:textSize="48sp"/>
+
+            <TextView
+                android:id="@+id/OtherText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/fruits"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/OtherText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/strawberries"
+                android:textSize="25sp"
+                android:layout_marginStart="60dp"/>
+
+            <TextView
+                android:id="@+id/OtherText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/cantaloupe_melon"
+                android:textSize="25sp"
+                android:layout_marginStart="60dp"/>
+
+            <TextView
+                android:id="@+id/OtherText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/watermelon"
+                android:textSize="25sp"
+                android:layout_marginStart="60dp"/>
+
+            <TextView
+                android:id="@+id/OtherText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/apples"
+                android:textSize="25sp"
+                android:layout_marginStart="60dp"/>
+
+            <TextView
+                android:id="@+id/OtherText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/peaches"
+                android:textSize="25sp"
+                android:layout_marginStart="60dp"/>
+
+            <TextView
+                android:id="@+id/OtherText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="@string/pears"
+                android:textSize="25sp"
+                android:layout_marginStart="60dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

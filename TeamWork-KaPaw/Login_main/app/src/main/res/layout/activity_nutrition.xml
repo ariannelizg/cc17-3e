@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nutrition">
+
+    <TextView
+        android:id="@+id/textNutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Nutrition"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/NutritionDog"
+            android:layout_width="300dp"
+            android:layout_height="280dp"
+            android:layout_alignParentTop="true"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="5dp">
+
+
+            <ImageView
+                android:id="@+id/dogsNutrition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/dogs" />
+
+            <TextView
+                android:id="@+id/dogsNutritionText"
+                android:layout_width="203dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="215dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/for_dogs_text"
+                android:textAlignment="center"
+                android:textSize="38sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/NutritionCat"
+            android:layout_width="300dp"
+            android:layout_height="280dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="300dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="5dp"
+            app:cardMaxElevation="10dp">
+
+            <ImageView
+                android:id="@+id/catsNutrition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/cats" />
+
+            <TextView
+                android:id="@+id/catsNutritionText"
+                android:layout_width="203dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="215dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/for_cats"
+                android:textAlignment="center"
+                android:textSize="38sp" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
