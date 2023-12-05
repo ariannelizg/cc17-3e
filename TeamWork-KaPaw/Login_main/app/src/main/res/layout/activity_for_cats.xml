@@ -6,7 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
     <TextView
         android:id="@+id/FaqsForCats"
         android:layout_width="wrap_content"
@@ -19,8 +27,8 @@
     <TextView
         android:id="@+id/FaqsCatsText"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
         android:fontFamily="sans-serif"
         android:text="1. What vaccinations does my cat need?"
         android:textSize="24dp" />
@@ -28,11 +36,11 @@
     <TextView
         android:id="@+id/FaqsCatsAnswer"
         android:layout_width="match_parent"
-        android:layout_height="207dp"
+        android:layout_height="230dp"
         android:layout_below="@+id/FaqsCatsText"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="354dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
         android:text="All kittens should receive the feline respiratory vaccine, abbreviated by vets as “FVRCP”. That stands for Feline Viral Rhinotracheitis, Calicivirus, and Panleukopenia. All 3 cause upper respiratory signs in cats, which can be mild to life-threatening.
 In order to be fully protected kittens need a series of 3 vaccinations, given 3-4 weeks apart. Most veterinarians recommend starting these vaccines at 8 weeks, then repeating at 12 and 16 weeks.
 All kittens need a rabies vaccine. Most veterinarians recommend giving this vaccination at 16 weeks of age."
@@ -42,7 +50,6 @@ All kittens need a rabies vaccine. Most veterinarians recommend giving this vacc
         android:id="@+id/FaqsCatsTextTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
         android:fontFamily="sans-serif"
         android:text="2. Why is my cat sneezing?"
         android:textSize="24dp" />
@@ -50,11 +57,10 @@ All kittens need a rabies vaccine. Most veterinarians recommend giving this vacc
     <TextView
         android:id="@+id/FaqsCatsAnswerTwo"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="135dp"
         android:layout_below="@+id/FaqsCatsTextTwo"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="166dp"
+        android:layout_marginTop="15dp"
         android:text="Sneezing is actually the most common sign of viral respiratory infections in cats. They’re usually caused by either herpes virus or the calicivirus, two very common bugs that like to hang around in places like overcrowded cat shelters."
         android:textSize="16dp" />
 
@@ -62,7 +68,6 @@ All kittens need a rabies vaccine. Most veterinarians recommend giving this vacc
         android:id="@+id/FaqsCatsTextThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="560dp"
         android:fontFamily="sans-serif"
         android:text="3. How often do cats go into heat?"
         android:textSize="24dp" />
@@ -70,14 +75,31 @@ All kittens need a rabies vaccine. Most veterinarians recommend giving this vacc
     <TextView
         android:id="@+id/FaqsCatsAnswerThree"
         android:layout_width="match_parent"
-        android:layout_height="177dp"
+        android:layout_height="140dp"
         android:layout_below="@+id/FaqsCatsTextThree"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="-105dp"
+        android:layout_marginTop="15dp"
         android:text="Cats can go into heat as early as six months, but the climate controls how often they do go into heat. For outdoor cats, the spring and summer bring on their mating seasons while indoor cats, because it is always warm indoors can go into heat many more times per year.
 "
         android:textSize="16dp" />
 
+            <TextView
+                android:id="@+id/FaqsCatsTextFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="4. Why does my cat bring me dead animals?"
+                android:textSize="24dp"/>
+            <TextView
+                android:id="@+id/FaqsCatsAnswerFour"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="15dp"
+                android:text="Cats have a natural instinct to hunt. Your cat may bring you dead prey for several reasons. He may want to show off what he has caught, expecting some praise from you. Or, he may be bringing you a gift. He could even be bringing you a mouse or other animal as a teaching aid, especially if it’s still alive. In this case, your cat might be trying to teach you to hunt. Even if your cat’s prey turns your stomach, don’t scold your cat. You can try to redirect his “hunting” toward toys in the house."
+                android:textSize="16dp"
+                />
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

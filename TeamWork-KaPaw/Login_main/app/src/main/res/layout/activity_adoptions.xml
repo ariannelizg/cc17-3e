@@ -6,35 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
-    <TextView
-        android:id="@+id/adoptions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="124dp"
-        android:layout_marginBottom="621dp"
-        android:fontFamily="@font/baloo"
-        android:text="@string/adoptions_text"
-        android:textSize="40sp" />
-
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerInParent="true">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/coco"
-        android:layout_width="160dp"
-        android:layout_height="170dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginBottom="414dp"
-        android:duplicateParentState="true">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/coco"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="120dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
 
         <TextView
             android:id="@+id/cocoText"
@@ -62,17 +48,16 @@
         android:layout_height="170dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="225dp"
+        android:layout_marginStart="185dp"
         android:layout_marginTop="120dp"
-        android:layout_marginBottom="414dp"
-        android:duplicateParentState="true">
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
 
         <TextView
             android:id="@+id/aceText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
+            android:layout_marginStart="53dp"
             android:layout_marginTop="125dp"
             android:fontFamily="@font/baloo"
             android:text="@string/ace_text"
@@ -94,18 +79,16 @@
         android:layout_height="170dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="25dp"
         android:layout_marginTop="320dp"
-        android:layout_marginBottom="414dp"
-        android:duplicateParentState="true">
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
 
         <TextView
             android:id="@+id/blossomText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
-            android:layout_marginTop="125dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="@font/baloo"
             android:text="@string/blossom_text"
             android:textSize="32sp" />
@@ -126,18 +109,17 @@
         android:layout_height="170dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="225dp"
+        android:layout_marginStart="185dp"
         android:layout_marginTop="320dp"
-        android:layout_marginBottom="414dp"
-        android:duplicateParentState="true">
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
 
         <TextView
             android:id="@+id/ikueText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="125dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="@font/baloo"
             android:text="@string/ikue_text"
             android:textSize="32sp" />
@@ -158,18 +140,16 @@
         android:layout_height="170dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="25dp"
         android:layout_marginTop="520dp"
-        android:layout_marginBottom="414dp"
-        android:duplicateParentState="true">
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
 
         <TextView
             android:id="@+id/ponponText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="125dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="@font/baloo"
             android:text="@string/ponpon_text"
             android:textSize="32sp" />
@@ -180,7 +160,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
             android:importantForAccessibility="no"
-            app:srcCompat="@drawable/ponpon" />
+            app:srcCompat="@drawable/ponpon"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -190,18 +170,17 @@
         android:layout_height="170dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="225dp"
+        android:layout_marginStart="185dp"
         android:layout_marginTop="520dp"
-        android:layout_marginBottom="414dp"
-        android:duplicateParentState="true">
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
 
         <TextView
             android:id="@+id/pumpkinText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="125dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="@font/baloo"
             android:text="@string/pumpkin_text"
             android:textSize="32sp" />
@@ -216,4 +195,13 @@
 
     </androidx.cardview.widget.CardView>
 
+        <TextView
+            android:id="@+id/adoptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/adoptions_text"
+            android:textSize="48sp"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
 </RelativeLayout>

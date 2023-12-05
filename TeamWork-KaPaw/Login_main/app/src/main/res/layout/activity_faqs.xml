@@ -26,6 +26,7 @@
 
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/FaqDog"
             android:layout_width="300dp"
             android:layout_height="280dp"
             android:layout_alignParentTop="true"
@@ -54,6 +55,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/FaqCat"
             android:layout_marginTop="300dp"
             android:layout_width="300dp"
             android:layout_height="280dp"

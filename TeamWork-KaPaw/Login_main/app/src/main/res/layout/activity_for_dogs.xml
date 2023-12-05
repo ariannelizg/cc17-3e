@@ -6,7 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
 
     <TextView
         android:id="@+id/FaqsForDogs"
@@ -17,43 +25,40 @@
         android:text="FAQ's For Dogs"
         android:textSize="48sp" />
 
+
     <TextView
         android:id="@+id/FaqsDogsText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
         android:fontFamily="sans-serif"
+        android:textFontWeight="600"
         android:text="@string/_1_how_can_i_crate_train_my_puppy"
         android:textSize="24dp" />
 
     <TextView
         android:id="@+id/FaqsDogsAnswer"
-        android:layout_width="400dp"
-        android:layout_height="136dp"
-        android:layout_below="@+id/FaqsDogsText"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="440dp"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
         android:text="@string/start_as_soon_as_you_bring_your_new_puppy_home_purchase_a_crate_that_will_accommodate_him_as_he_grows_and_use_boxes_to_take_up_the_excess_space_remove_them_as_he_gets_bigger_give_him_an_interesting_toy_once_he_s_in_the_crate_that_he_only_gets_when_he_s_there"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/FaqsDogsTextTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
         android:fontFamily="sans-serif"
+        android:textFontWeight="600"
         android:text="2. What vaccinations do puppies need?"
         android:textSize="24dp" />
 
     <TextView
         android:id="@+id/FaqsDogsAnswerTwo"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_below="@+id/FaqsDogsTextTwo"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="179dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="15dp"
         android:text="“Core” vaccinations for puppies are against parvovirus, distemper virus, and rabies. The parvo and distemper vaccines are typically combined into one shot. Puppies need a series of 3 of these vaccines to be fully protected, they are typically given at 8, 12, and 16 weeks of age.
 Vaccination against rabies is also critical. Puppies need one vaccination against rabies at 16 weeks.
 "
@@ -61,24 +66,38 @@ Vaccination against rabies is also critical. Puppies need one vaccination agains
 
     <TextView
         android:id="@+id/FaqsDogsTextThree"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:fontFamily="sans-serif"
+        android:textFontWeight="600"
         android:text="3. What is the best age to start training my dog?"
         android:textSize="24dp" />
 
     <TextView
         android:id="@+id/FaqsDogsAnswerThree"
         android:layout_width="match_parent"
-        android:layout_height="177dp"
-        android:layout_below="@+id/FaqsDogsTextThree"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="-105dp"
-        android:text="The best age to start training a dog is during the puppy stage, which is typically between 8 and 16 weeks old. At this age, puppies are highly adaptable and have a natural desire to learn, making it easier to teach them new things. Additionally, early training can help prevent behavior problems from developing later on.
-"
+        android:layout_height="165dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/the_best_age_to_start_training_a_dog_is_during_the_puppy_stage_which_is_typically_between_8_and_16_weeks_old_at_this_age_puppies_are_highly_adaptable_and_have_a_natural_desire_to_learn_making_it_easier_to_teach_them_new_things_additionally_early_training_can_help_prevent_behavior_problems_from_developing_later_on_text"
         android:textSize="16dp" />
 
+            <TextView
+                android:id="@+id/FaqsDogsTextFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:textFontWeight="600"
+                android:text="4. Why do dogs wag their tails?"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="1dp"
+                android:text="Most behavioral experts believe that tail-wagging is merely a sign of strong emotion. In lots of dogs it usually equates to happiness, but it can also mean the dog is concerned or cautious about a new situation. Some dogs wag their tails when they’re feeling threatened. For this reason, you should always approach an unfamiliar dog with caution, even when it’s wagging its tail. Kids should be taught this as well, and should be told never to approach any dog with outstretched fingers that can be easily bitten. They should also be instructed to ask permission from the owner before approaching any dog."
+                android:textSize="16dp"/>
+    </LinearLayout>
+</ScrollView>
 
 </RelativeLayout>
