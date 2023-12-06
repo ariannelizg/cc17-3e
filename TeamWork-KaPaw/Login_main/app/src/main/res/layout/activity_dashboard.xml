@@ -201,10 +201,10 @@
         android:id="@+id/dashboardText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/baloo_bhai"
         android:text="@string/dashboard_text"
-        android:textSize="48sp"
-        android:layout_marginTop="20dp"/>
+        android:textSize="48sp" />
 
   </RelativeLayout>
 

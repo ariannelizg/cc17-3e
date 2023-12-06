@@ -4,130 +4,135 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".adopt_coco">
+    tools:context=".adoptCoco">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:orientation="vertical">
         <ImageView
             android:id="@+id/CocoAdopt"
             android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:layout_marginTop="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="44dp"
             android:src="@drawable/coco" />
 
-    <TextView
-        android:id="@+id/cocoTextAdopt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="355dp"
-        android:fontFamily="@font/baloo_bhai"
-        android:text="Yorkshire Terrier Coco"
-        android:textSize="25sp" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cocoAgeCard"
-        android:layout_width="96dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="305dp"
-        android:layout_marginBottom="308dp"
-        app:cardBackgroundColor="#FFEBCD"
-        app:cardCornerRadius="10dp">
-
         <TextView
-            android:id="@+id/cocoAgeText"
+            android:id="@+id/cocoTextAdopt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/AceAdopt"
+            android:layout_marginStart="20dp"
             android:fontFamily="@font/baloo_bhai"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:text="3 years"
-            android:textSize="20sp" />
+            android:text="Yorkshire Terrier Coco"
+            android:textSize="25sp" />
 
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cocoDefCard"
-        android:layout_width="174dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="308dp"
-        app:cardBackgroundColor="#E0CDFF"
-        app:cardCornerRadius="10dp">
-
-        <TextView
-            android:id="@+id/cocoDefText"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/baloo_bhai"
-            android:gravity="center"
-            android:text="Cute and Friendly"
-            android:textSize="18sp" />
+            android:gravity="center_horizontal">
 
-    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cocoAgeCard"
+            android:layout_width="96dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFEBCD"
+            app:cardCornerRadius="10dp">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cocoKiloCard"
-        android:layout_width="101dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="300dp"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="308dp"
-        app:cardBackgroundColor="@color/primary"
-        app:cardCornerRadius="10dp">
+            <TextView
+                android:id="@+id/cocoAgeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="3 years"
+                android:textSize="19sp" />
 
-        <TextView
-            android:id="@+id/cocoKiloText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/baloo_bhai"
-            android:gravity="center"
-            android:text="10kgs"
-            android:textSize="18sp" />
+        </androidx.cardview.widget.CardView>
 
-    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cocoDefCard"
+            android:layout_width="174dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/cocoKiloCard"
+            android:layout_toEndOf="@+id/cocoAgeCard"
+            app:cardBackgroundColor="#E0CDFF"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/cocoDefText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/baloo_bhai"
+                android:gravity="center"
+                android:text="Small and Loyal"
+                android:textSize="14sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cocoKiloCard"
+            android:layout_width="101dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="192dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/primary"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/cocoKiloText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/baloo_bhai"
+                android:gravity="center"
+                android:text="3kgs"
+                android:textSize="18sp" />
+
+        </androidx.cardview.widget.CardView>
+        </RelativeLayout>
 
     <TextView
         android:id="@+id/cocoInfo"
         android:layout_width="match_parent"
-        android:layout_height="196dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="450dp"
-        android:layout_marginBottom="85dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cocoKiloCard"
+        android:layout_marginStart="9dp"
         android:fontFamily="@font/baloo_bhai"
-        android:text="The Yorkshire Terrier is a small dog with a big personality. They are feisty and loving, and they make great companions for people of all ages. Yorkies are also the most popular toy dog breed in the United States, and they have won many fans with their devotion to their owners, their elegant looks, and their suitability to apartment living."
-        android:textSize="15dp"
-        android:layout_marginStart="10dp"/>
+        android:text="The Yorkshire terrier is a small toy dog breed native to England with a long, silky coat that’s often black and tan. Also known as Yorkies, these dogs have tenacious but affectionate personalities. They tend to be very vocal, protective, and loyal. And, despite their small size, they can make excellent guard dogs. But, at heart, Yorkies are wonderful companions that enjoy pampering and snuggling up to their loved ones."
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/cocoButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="650dp"
-        android:layout_marginEnd="106dp"
-        android:layout_marginBottom="41dp"
         android:fontFamily="@font/baloo_bhai"
-        android:text="Sign Up for Adoption" />
-
+        android:text="Sign Up for Adoption"
+        android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
