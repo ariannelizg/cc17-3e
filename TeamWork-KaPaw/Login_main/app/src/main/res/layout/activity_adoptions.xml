@@ -130,7 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
             android:importantForAccessibility="no"
-            app:srcCompat="@drawable/ace" />
+            app:srcCompat="@drawable/ikue" />
 
     </androidx.cardview.widget.CardView>
 
