@@ -22,25 +22,25 @@
             app:cardCornerRadius="30dp"
             app:cardElevation="10dp">
 
-        <TextView
-            android:id="@+id/cocoText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="125dp"
-            android:fontFamily="@font/baloo"
-            android:text="@string/coco_text"
-            android:textSize="32sp" />
+            <TextView
+                android:id="@+id/cocoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/coco_text"
+                android:textSize="32sp" />
 
-        <ImageView
-            android:id="@+id/cocoImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:importantForAccessibility="no"
-            app:srcCompat="@drawable/coco" />
+            <ImageView
+                android:id="@+id/cocoImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:importantForAccessibility="no"
+                app:srcCompat="@drawable/coco" />
 
-    </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/ace"

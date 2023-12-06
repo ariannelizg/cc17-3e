@@ -18,6 +18,7 @@ class Dashboard : AppCompatActivity() {
         var imageContacts = findViewById<CardView>(R.id.contactsCard)
         var imageNutrition = findViewById<CardView>(R.id.nutritionCard)
         var imageFirstAid = findViewById<CardView>(R.id.firstCard)
+        var imageChecklist = findViewById<CardView>(R.id.checkCard)
 
         imageFaqs.setOnClickListener{
             openFaqs()
@@ -33,6 +34,9 @@ class Dashboard : AppCompatActivity() {
         }
         imageFirstAid.setOnClickListener{
             openFirstAid()
+        }
+        imageChecklist.setOnClickListener{
+            opendogs_checklist()
         }
 
     }
@@ -50,5 +54,8 @@ class Dashboard : AppCompatActivity() {
     }
     public fun openFirstAid(){
         startActivity(Intent(this@Dashboard, FirstAid::class.java))
+    }
+    public fun opendogs_checklist(){
+        startActivity(Intent(this@Dashboard, dogs_checklist::class.java))
     }
 }
