@@ -1,135 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:id="@+id/ikuechecklist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="632dp"
-        android:fontFamily="@font/baloo_bhai"
-        android:text="@string/ikue"
-        android:textSize="40sp"
-        tools:ignore="VisualLintOverlap" />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageView
-            android:id="@+id/checkbox1"
-            android:layout_width="62dp"
-            android:layout_height="57dp"
+        <TextView
+            android:id="@+id/ikuechecklist"
+            android:layout_width="146dp"
+            android:layout_height="67dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="11dp"
-            android:layout_marginEnd="338dp"
-            android:layout_marginBottom="556dp"
-            android:contentDescription="@string/checkbox1"
-            app:srcCompat="@drawable/baseline_check_box_outline_blank_24"
-            tools:ignore="ImageContrastCheck" />
+            android:fontFamily="@font/baloo_bhai"
+            android:text="@string/ikue"
+            android:textSize="40sp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.055"
+            tools:ignore="VisualLintOverlap" />
 
         <TextView
             android:id="@+id/checklist1"
-            android:layout_width="352dp"
+            android:layout_width="320dp"
             android:layout_height="43dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="-16dp"
-            android:layout_marginBottom="563dp"
+            android:layout_marginTop="32dp"
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/checkup_october_2"
             android:textColor="#A1887F"
             android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.912"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ikuechecklist"
             tools:ignore="TextSizeCheck,VisualLintBounds" />
 
         <ImageView
-            android:id="@+id/checkbox2"
-            android:layout_width="62dp"
-            android:layout_height="57dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="11dp"
-            android:layout_marginEnd="336dp"
-            android:layout_marginBottom="479dp"
-            android:contentDescription="@string/checkbox2"
-            app:srcCompat="@drawable/baseline_check_box_outline_blank_24"
-            tools:ignore="ImageContrastCheck" />
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/baseline_check_box_outline_blank_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/checklist1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.195" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pawvector"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
 
         <TextView
             android:id="@+id/checklist2"
-            android:layout_width="352dp"
-            android:layout_height="43dp"
+            android:layout_width="317dp"
+            android:layout_height="46dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="-16dp"
-            android:layout_marginBottom="486dp"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/medicine"
             android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/checklist1"
             tools:ignore="TextSizeCheck,VisualLintBounds" />
 
         <ImageView
-            android:id="@+id/checkbox3"
-            android:layout_width="62dp"
-            android:layout_height="57dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="11dp"
-            android:layout_marginEnd="333dp"
-            android:layout_marginBottom="403dp"
-            android:contentDescription="@string/checkbox3"
-            app:srcCompat="@drawable/baseline_check_box_outline_blank_24"
-            tools:ignore="ImageContrastCheck" />
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/baseline_check_box_outline_blank_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/checklist1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
 
         <TextView
             android:id="@+id/checklist3"
-            android:layout_width="352dp"
-            android:layout_height="43dp"
+            android:layout_width="317dp"
+            android:layout_height="51dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="-18dp"
-            android:layout_marginBottom="409dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="44dp"
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/bath"
             android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.312"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/checklist2"
             tools:ignore="TextSizeCheck,VisualLintBounds" />
 
         <ImageView
-            android:id="@+id/pawvector"
-            android:layout_width="38dp"
-            android:layout_height="43dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="349dp"
-            android:layout_marginBottom="563dp"
-            android:contentDescription="@string/pawvector"
-            app:srcCompat="@drawable/pawvector"
-            tools:ignore="ImageContrastCheck" />
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/baseline_check_box_outline_blank_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/checklist1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.451" />
 
-        <ImageView
-            android:id="@+id/addbutton"
-            android:layout_width="69dp"
-            android:layout_height="78dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="32dp"
-            android:layout_marginBottom="22dp"
-            android:contentDescription="@string/addbutton"
-            app:srcCompat="@drawable/add"
-            tools:ignore="ImageContrastCheck" />
 
-    </RelativeLayout>
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
