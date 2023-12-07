@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/proteins"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -25,7 +26,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/protein"
                 android:textSize="48sp"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText1"
@@ -33,8 +35,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/beef"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText2"
@@ -42,8 +45,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/turkey"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText3"
@@ -51,8 +55,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/chicken"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText4"
@@ -60,8 +65,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/lamb"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/Proteintext5"
@@ -69,8 +75,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/pork"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText6"
@@ -78,8 +85,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/shrimp_fully_cooked_with_shell_removed"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText7"
@@ -87,8 +95,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/tuna"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText8"
@@ -96,8 +105,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/eggs_in_moderation"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText9"
@@ -106,7 +116,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/note"
                 android:textSize="30sp"
-                android:layout_marginStart="10dp"/>
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText10"
@@ -115,7 +126,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/avoid_cuts_of_meat"
                 android:textSize="25sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText11"
@@ -124,7 +136,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/remove_excess_fat_and_skin"
                 android:textSize="25sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/ProteinText12"
@@ -133,7 +146,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/use_meats_like_ham_in_moderation"
                 android:textSize="25sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

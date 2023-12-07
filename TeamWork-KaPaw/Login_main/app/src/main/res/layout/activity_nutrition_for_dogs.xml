@@ -19,10 +19,10 @@
 
             <TextView
                 android:id="@+id/nutriForDogs"
-                android:layout_width="410dp"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
                 android:layout_height="80dp"
                 android:layout_marginTop="40dp"
-                android:layout_marginEnd="124dp"
                 android:layout_marginBottom="620dp"
                 android:fontFamily="@font/baloo_bhai"
                 android:gravity="center"

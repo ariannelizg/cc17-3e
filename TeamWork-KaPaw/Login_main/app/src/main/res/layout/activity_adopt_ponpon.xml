@@ -58,7 +58,8 @@
             android:gravity="center"
             android:layout_gravity="center"
             android:text="4 months"
-            android:textSize="17sp" />
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -84,7 +85,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:gravity="center"
             android:text="Friendly and Affectionate"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -109,7 +111,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:gravity="center"
             android:text="6kgs"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
 
     </androidx.cardview.widget.CardView>
         </RelativeLayout>

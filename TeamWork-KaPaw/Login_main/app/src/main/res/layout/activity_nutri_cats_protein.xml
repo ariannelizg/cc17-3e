@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/proteins"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,7 +21,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/protein"
             android:textAlignment="center"
-            android:textSize="48sp" />
+            android:textSize="48sp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/ProteinText1"
@@ -29,7 +31,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/poultry"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/ProteinText2"
@@ -38,7 +41,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/chicken"
             android:textSize="25sp"
-            android:layout_marginStart="60dp"/>
+            android:layout_marginStart="60dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/ProteinText3"
@@ -47,7 +51,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/turkey"
             android:textSize="25sp"
-            android:layout_marginStart="60dp"/>
+            android:layout_marginStart="60dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/ProteinText4"
@@ -56,7 +61,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/duck"
             android:textSize="25sp"
-            android:layout_marginStart="60dp"/>
+            android:layout_marginStart="60dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/ProteinText5"
@@ -65,7 +71,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/beef"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/ProteinText6"
@@ -74,7 +81,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/pork"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/ProteinText7"
@@ -83,7 +91,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/lamb_and_veal"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/ProteinText8"
@@ -92,6 +101,7 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/fish"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
     </LinearLayout>
 </RelativeLayout>

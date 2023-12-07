@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/carbohydrates"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,7 +21,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/carbohydrate"
             android:textAlignment="center"
-            android:textSize="48sp" />
+            android:textSize="48sp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CarboText1"
@@ -29,7 +31,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/sweet_potatoes"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CarboText2"
@@ -38,7 +41,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/oatmeal"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CarboText3"
@@ -47,7 +51,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/brown_rice"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CarboText4"
@@ -56,7 +61,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/quinoa"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CarboText5"
@@ -65,7 +71,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/whole_grains"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CarboText6"
@@ -74,7 +81,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/corn"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CarboText7"
@@ -83,6 +91,7 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/wheat"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
     </LinearLayout>
 </RelativeLayout>

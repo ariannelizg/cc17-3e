@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/vegetables"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -29,7 +30,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/vegetables"
                     android:textAlignment="center"
-                    android:textSize="48sp" />
+                    android:textSize="48sp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/VegeText1"
@@ -38,7 +40,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/boiled_carrots"
                     android:textSize="25sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/VegeText2"
@@ -47,7 +50,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/boiled_peas"
                     android:textSize="25sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/VegeText3"
@@ -56,7 +60,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/boiled_pumpkin"
                     android:textSize="25sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/VegeText4"
@@ -65,7 +70,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/raw_or_boiled_cucumber_a_very_hydrating_vegetable"
                     android:textSize="25sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/VegeText5"
@@ -74,7 +80,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/raw_or_boiled_lettuce"
                     android:textSize="25sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/VegeText6"
@@ -83,7 +90,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/green_beans"
                     android:textSize="25sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/VegeText7"
@@ -92,7 +100,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/sweet_potatoes"
                     android:textSize="25sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"/>
             </LinearLayout>
         </ScrollView>
     </RelativeLayout>

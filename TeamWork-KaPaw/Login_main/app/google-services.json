@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "1009269417569",
+    "firebase_url": "https://register-eda80-default-rtdb.firebaseio.com",
     "project_id": "register-eda80",
     "storage_bucket": "register-eda80.appspot.com"
   },

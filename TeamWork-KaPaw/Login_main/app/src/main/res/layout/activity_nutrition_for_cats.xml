@@ -19,12 +19,12 @@
 
             <TextView
                 android:id="@+id/nutriForCats"
-                android:layout_width="410dp"
+                android:layout_width="300dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="40dp"
-                android:layout_marginEnd="124dp"
                 android:layout_marginBottom="620dp"
                 android:fontFamily="@font/baloo_bhai"
+                android:layout_gravity="center"
                 android:gravity="center"
                 android:text="For Cats"
                 android:textSize="60dp" />

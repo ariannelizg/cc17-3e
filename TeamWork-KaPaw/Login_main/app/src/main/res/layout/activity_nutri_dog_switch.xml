@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/making_switch"
+
     tools:context=".MainActivity">
 
     <ScrollView
@@ -25,7 +27,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/making_the_switch"
                 android:textAlignment="center"
-                android:textSize="48sp" />
+                android:textSize="48sp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/SwitchText1"
@@ -34,7 +37,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/a_good_thing_to_remember"
                 android:textSize="20sp"
-                android:layout_marginStart="10dp"/>
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/SwitchText2"
@@ -42,8 +46,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/day_1_mix_20"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/SwitchText3"
@@ -51,8 +56,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/day_2_mix_40"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/SwitchText4"
@@ -60,8 +66,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/day_3_mix_50"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/SwitchText5"
@@ -69,8 +76,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/day_4_mix_60"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/SwitchText6"
@@ -78,8 +86,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/day_5_mix_80"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/SwitchText7"
@@ -87,8 +96,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/day_6_feed_100_of_the_new_food"
-                android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

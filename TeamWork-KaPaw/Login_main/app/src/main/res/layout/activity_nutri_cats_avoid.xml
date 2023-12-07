@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ingredients"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -19,7 +20,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fillViewport="true"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:textColor="@color/white">
 
                 <TextView
                     android:id="@+id/IngredientsToAvoidTitleText"
@@ -29,7 +31,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/ingredients_to_avoid"
                     android:textAlignment="center"
-                    android:textSize="48sp" />
+                    android:textSize="48sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText1"
@@ -38,7 +41,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/chocolate"
                     android:textSize="25sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText2"
@@ -48,7 +52,8 @@
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/garlic"
-                    android:textSize="25sp" />
+                    android:textSize="25sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText3"
@@ -58,7 +63,8 @@
                     android:text="@string/onions"
                     android:textSize="25sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="5dp"/>
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText4"
@@ -68,7 +74,8 @@
                     android:text="@string/citrus_oils"
                     android:textSize="25sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="5dp"/>
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText5"
@@ -78,7 +85,8 @@
                     android:text="@string/raw_eggs"
                     android:textSize="25sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="5dp"/>
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText6"
@@ -88,7 +96,8 @@
                     android:text="@string/raw_meat_and_bones"
                     android:textSize="25sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="5dp"/>
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText7"
@@ -98,7 +107,8 @@
                     android:text="@string/caffeinated_drinks"
                     android:textSize="25sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="5dp"/>
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText8"
@@ -108,7 +118,8 @@
                     android:text="@string/alcohol"
                     android:textSize="25sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="5dp"/>
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText9"
@@ -118,7 +129,8 @@
                     android:text="@string/raw_dough"
                     android:textSize="25sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="5dp"/>
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AvoidText10"
@@ -128,7 +140,8 @@
                     android:text="@string/grapes_and_raisins"
                     android:textSize="25sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="5dp"/>
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"/>
             </LinearLayout>
         </ScrollView>
     </RelativeLayout>

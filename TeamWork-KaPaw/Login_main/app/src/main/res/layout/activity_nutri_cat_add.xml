@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/addin"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -30,7 +31,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/cat_food_add_ins"
                     android:textAlignment="center"
-                    android:textSize="48sp" />
+                    android:textSize="48sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText1"
@@ -39,7 +41,8 @@
                     android:layout_marginStart="3dp"
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/things_you_can_add"
-                    android:textSize="25sp" />
+                    android:textSize="25sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText2"
@@ -49,7 +52,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
                     android:text="@string/fish_oil"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText3"
@@ -59,7 +63,8 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginStart="10dp"
                     android:text="@string/turmeric_"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText4"
@@ -69,7 +74,8 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginStart="10dp"
                     android:text="@string/coconut_oil_"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText5"
@@ -79,7 +85,8 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginStart="10dp"
                     android:text="@string/blueberries"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
             </LinearLayout>
         </ScrollView>
     </RelativeLayout>

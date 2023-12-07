@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/calciums"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,7 +21,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/calcium"
             android:textAlignment="center"
-            android:textSize="48sp" />
+            android:textSize="48sp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CalciumText1"
@@ -29,7 +31,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/cheese"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CalciumText2"
@@ -38,7 +41,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/milk"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CalciumText3"
@@ -47,7 +51,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/tofu"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CalciumText4"
@@ -56,7 +61,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/soya_beans"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CalciumText5"
@@ -65,7 +71,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/green_leafy_vegetables"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CalciumText6"
@@ -74,7 +81,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/nuts"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/CalciumText7"
@@ -83,6 +91,7 @@
             android:fontFamily="@font/baloo_bhai"
             android:text="@string/fish"
             android:textSize="30sp"
-            android:layout_marginStart="30dp"/>
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"/>
     </LinearLayout>
 </RelativeLayout>

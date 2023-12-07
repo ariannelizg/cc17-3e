@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/carbohydrates"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -25,7 +26,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/carbohydrates"
                 android:textSize="48sp"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/CarboText1"
@@ -34,7 +36,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/rice"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/CarboText2"
@@ -43,7 +46,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/potatoes"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/CarboText3"
@@ -52,7 +56,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/pasta"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/CarboText4"
@@ -61,7 +66,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/oatmeal"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/CarboText5"
@@ -70,7 +76,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/quinoa"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

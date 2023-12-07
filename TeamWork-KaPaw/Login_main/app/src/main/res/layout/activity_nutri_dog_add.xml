@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/addin"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -29,7 +30,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/dog_food_add_ins"
                     android:textAlignment="center"
-                    android:textSize="48sp" />
+                    android:textSize="48sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText1"
@@ -38,7 +40,8 @@
                     android:layout_marginStart="10dp"
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/if_you_prefer_to_feed_your_dog"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText2"
@@ -47,7 +50,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/a_whole_egg"
                     android:textSize="20sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText3"
@@ -57,7 +61,8 @@
                     android:text="@string/a_can_of_cooked_salmon"
                     android:textSize="20sp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText4"
@@ -67,7 +72,8 @@
                     android:text="@string/mixed_vegetables_raw_or_steamed"
                     android:textSize="20sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="10dp"/>
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText5"
@@ -76,7 +82,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:text="@string/a_small_portion_of_cottage_cheese_or_yogurt"
                     android:textSize="20sp"
-                    android:layout_marginStart="30dp"/>
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText6"
@@ -86,7 +93,8 @@
                     android:text="@string/leafy_greens_such_as_kale_or_spinach"
                     android:textSize="20sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="10dp"/>
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText7"
@@ -96,7 +104,8 @@
                     android:text="@string/sardines_high_in_selenium_and_a_great_source_of_omega_3_fatty_acids"
                     android:textSize="20sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="10dp"/>
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/AddInsText8"
@@ -106,7 +115,8 @@
                     android:text="@string/bone_broth"
                     android:textSize="20sp"
                     android:layout_marginStart="30dp"
-                    android:layout_marginTop="10dp"/>
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"/>
             </LinearLayout>
         </ScrollView>
     </RelativeLayout>

@@ -15,6 +15,20 @@
         android:theme="@style/Theme.LoginPage"
         tools:targetApi="31">
         <activity
+
+            android:name=".Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
+            android:name=".Form"
+            android:exported="false" />
+        <activity
+            android:name=".Details"
+            android:exported="false" />
+
+        <activity
             android:name=".adoptPumpkin"
             android:exported="false" />
         <activity
@@ -32,24 +46,7 @@
         <activity
             android:name=".adoptAce"
             android:exported="false" />
-        <activity
-            android:name=".adopt_pumpkin"
-            android:exported="false" />
-        <activity
-            android:name=".adopt_ponpon"
-            android:exported="false" />
-        <activity
-            android:name=".adopt_ikue"
-            android:exported="false" />
-        <activity
-            android:name=".adopt_ace"
-            android:exported="false" />
-        <activity
-            android:name=".adopt_blossom"
-            android:exported="false" />
-        <activity
-            android:name=".adopt_coco"
-            android:exported="false" />
+
         <activity
             android:name=".Ikue_Checklist"
             android:exported="false" />
@@ -83,9 +80,7 @@
         <activity
             android:name=".NutriCatsVegetables"
             android:exported="false" />
-        <activity
-            android:name=".NutriCatsVege"
-            android:exported="false" />
+
         <activity
             android:name=".NutriCatsProtein"
             android:exported="false" />
@@ -104,9 +99,7 @@
         <activity
             android:name=".NutriCatAdd"
             android:exported="false" />
-        <activity
-            android:name=".Protein_for_Cats"
-            android:exported="false" />
+
         <activity
             android:name=".Registers"
             android:exported="true">

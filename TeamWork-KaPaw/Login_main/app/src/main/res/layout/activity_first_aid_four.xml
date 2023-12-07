@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,92 +24,101 @@
                         android:id="@+id/FirstAidFour"
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
-                        android:layout_marginTop="50dp" />
+                        android:layout_marginStart="-3dp"
+                        android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:id="@+id/firstaidText4"
+                    android:layout_width="357dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="@string/choking_cat_what_to_do"
+                    android:textAlignment="center"
+                    android:textSize="35sp"
+                    tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/firstaidCard1"
+                        android:layout_width="128dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#FFEBCD"
+                        app:cardCornerRadius="10dp">
 
                         <TextView
-                            android:id="@+id/firstaidText4"
-                            android:layout_width="357dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="30dp"
-                            android:layout_marginTop="30dp"
+                            android:id="@+id/firstaidDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="27dp"
+                            android:layout_marginTop="3dp"
                             android:fontFamily="@font/baloo_bhai"
-                            android:text="@string/choking_cat_what_to_do"
+                            android:text="@string/january_7_2017"
                             android:textAlignment="center"
-                            android:textSize="35sp"
-                            tools:ignore="TextSizeCheck,VisualLintOverlap" />
+                            android:textSize="15sp"
+                            tools:ignore="TextSizeCheck"
+                            android:textColor="@color/black"/>
+                    </androidx.cardview.widget.CardView>
 
-                        <androidx.cardview.widget.CardView
-                            android:id="@+id/firstaidCard1"
-                            android:layout_width="130dp"
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/firstaidCard2"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginEnd="6dp"
+                        android:layout_toStartOf="@+id/firstaidCard3"
+                        android:layout_toEndOf="@+id/firstaidCard1"
+                        app:cardBackgroundColor="#E0CDFF"
+                        app:cardCornerRadius="10dp">
+
+                        <TextView
+                            android:id="@+id/firstaidName"
+                            android:layout_width="match_parent"
                             android:layout_height="30dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginStart="5dp"
-                            app:cardBackgroundColor="#FFEBCD"
-                            app:cardCornerRadius="10dp">
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:text="@string/first_aid_for_life"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            tools:ignore="TextSizeCheck"
+                            android:textColor="@color/black"/>
+                    </androidx.cardview.widget.CardView>
 
-                            <TextView
-                                android:id="@+id/firstaidDate"
-                                android:layout_width="match_parent"
-                                android:layout_height="27dp"
-                                android:layout_marginTop="3dp"
-                                android:fontFamily="@font/baloo_bhai"
-                                android:text="@string/january_7_2017"
-                                android:textAlignment="center"
-                                android:textSize="15sp"
-                                tools:ignore="TextSizeCheck" />
-                        </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/firstaidCard3"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="6dp"
+                        app:cardBackgroundColor="#FFCDD6"
+                        app:cardCornerRadius="10dp">
 
-                        <androidx.cardview.widget.CardView
-                            android:id="@+id/firstaidCard2"
-                            android:layout_width="130dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="-30dp"
-                            android:layout_marginStart="140dp"
-                            app:cardBackgroundColor="#E0CDFF"
-                            app:cardCornerRadius="10dp">
-
-                            <TextView
-                                android:id="@+id/firstaidName"
-                                android:layout_width="match_parent"
-                                android:layout_height="30dp"
-                                android:layout_marginTop="3dp"
-                                android:fontFamily="@font/baloo_bhai"
-                                android:text="@string/first_aid_for_life"
-                                android:textAlignment="center"
-                                android:textSize="15sp"
-                                tools:ignore="TextSizeCheck" />
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:id="@+id/firstaidCard3"
-                            android:layout_width="130dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="-30dp"
-                            android:layout_marginStart="275dp"
-                            app:cardBackgroundColor="#FFCDD6"
-                            app:cardCornerRadius="10dp">
-
-                            <TextView
-                                android:id="@+id/firstaidDoc"
-                                android:layout_width="match_parent"
-                                android:layout_height="27dp"
-                                android:layout_marginTop="3dp"
-                                android:layout_marginBottom="238dp"
-                                android:fontFamily="@font/baloo_bhai"
-                                android:text="Emma Hammett"
-                                android:textAlignment="center"
-                                android:textSize="15sp"
-                                tools:ignore="TextSizeCheck" />
-                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:id="@+id/firstaidDoc"
+                            android:layout_width="match_parent"
+                            android:layout_height="27dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="238dp"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:text="Emma Hammett"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            tools:ignore="TextSizeCheck"
+                            android:textColor="@color/black"/>
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
 
                         <TextView
                             android:id="@+id/firstaidDescript4"
-                            android:layout_width="368dp"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="23dp"
+                            android:layout_gravity="center"
                             android:layout_marginTop="50dp"
-                            android:layout_marginEnd="20dp"
                             android:layout_marginBottom="119dp"
+                            android:layout_marginStart="5dp"
                             android:fontFamily="@font/baloo_bhai"
                             android:text="@string/what_to_do_if_your_cat_is_choking_follow_this_quick_and_essential_guide_to_help_your_pet"
                             android:textSize="20sp"

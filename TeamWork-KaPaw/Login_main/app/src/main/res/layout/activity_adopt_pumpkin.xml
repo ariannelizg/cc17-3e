@@ -59,35 +59,36 @@
             android:gravity="center"
             android:layout_gravity="center"
             android:text="2.5 years"
-            android:textSize="17sp" />
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
 
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/pumpkinDefCard"
-        android:layout_width="174dp"
-        android:layout_height="40dp"
-        android:layout_margin="5dp"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_toStartOf="@+id/pumpkinKiloCard"
-        android:layout_toEndOf="@+id/pumpkinAgeCard"
-        app:cardBackgroundColor="#E0CDFF"
-        app:cardCornerRadius="10dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pumpkinDefCard"
+                android:layout_width="174dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toStartOf="@+id/pumpkinKiloCard"
+                android:layout_toEndOf="@+id/pumpkinAgeCard"
+                app:cardBackgroundColor="#E0CDFF"
+                app:cardCornerRadius="10dp">
 
-        <TextView
-            android:id="@+id/pumpkinDefText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/baloo_bhai"
-            android:gravity="center"
-            android:text="Friendly and Playful"
-            android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/pumpkinDefText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:gravity="center"
+                    android:text="Friendly and Playful"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"/>
 
-    </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/pumpkinKiloCard"
@@ -110,7 +111,8 @@
             android:fontFamily="@font/baloo_bhai"
             android:gravity="center"
             android:text="7kgs"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
 
     </androidx.cardview.widget.CardView>
         </RelativeLayout>

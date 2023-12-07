@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ingredients"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -25,7 +26,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/ingredients_to_avoid"
                 android:textAlignment="center"
-                android:textSize="48sp" />
+                android:textSize="48sp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText1"
@@ -34,7 +36,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/alcohol"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText2"
@@ -43,7 +46,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/almonds"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText3"
@@ -52,7 +56,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/avocados"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText4"
@@ -61,7 +66,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/chocolates"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText5"
@@ -70,7 +76,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/coffee"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText6"
@@ -79,7 +86,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/cinnamon"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText7"
@@ -88,7 +96,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/garlic"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText8"
@@ -97,7 +106,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/grapes"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText9"
@@ -106,7 +116,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/onions"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText10"
@@ -115,7 +126,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/macadamia_nuts"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText11"
@@ -124,7 +136,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/raisins"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText12"
@@ -133,7 +146,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/raw_yeast_dough"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText13"
@@ -142,7 +156,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/xylitol_and_artificial_sweeteners"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/AvoidText14"
@@ -151,7 +166,8 @@
                 android:fontFamily="@font/baloo_bhai"
                 android:text="@string/mushrooms"
                 android:textSize="30sp"
-                android:layout_marginStart="30dp"/>
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

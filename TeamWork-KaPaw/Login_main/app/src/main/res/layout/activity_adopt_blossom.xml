@@ -60,7 +60,8 @@
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:text="2 months"
-                    android:textSize="19sp" />
+                    android:textSize="19sp"
+                    android:textColor="@color/black"/>
 
             </androidx.cardview.widget.CardView>
 
@@ -86,7 +87,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:gravity="center"
                     android:text="Calm and Cheerful"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:textColor="@color/black"/>
 
             </androidx.cardview.widget.CardView>
 
@@ -111,7 +113,8 @@
                     android:fontFamily="@font/baloo_bhai"
                     android:gravity="center"
                     android:text="4kgs"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
 
             </androidx.cardview.widget.CardView>
         </RelativeLayout>
@@ -125,13 +128,13 @@
         android:text="The British Longhair is a relatively new breed, having descended directly from the British Shorthair cat. By the end of the first world war, the British Shorthair population had dropped dramatically. Breeders worked hard to save these incredible cats by outcrossing with several other breeds including Persians. Kittens with long hair did not qualify as British Shorthairs, however they made excellent pets, as they shared many of the traits that make the breed so popular."
         android:textSize="15dp" />
 
-    <Button
-        android:id="@+id/blossomButton"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/baloo_bhai"
-        android:text="Sign Up for Adoption"
-        android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/blossomButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="Sign Up for Adoption" />
     </LinearLayout>
     </ScrollView>
 </RelativeLayout>
