@@ -24,3 +24,25 @@
  - Adoptions done
  - Checklist done
  - Started intents
+   
+### 2023/11/10
+ - Continued adding intents
+ - Continued layouting Checklist page
+ - Continued layouting Adoption page
+
+### 2023/11/20
+ - Finished layouting Checklist
+ - Finished layouting Adoption
+ - Edited the dashboard
+
+### 2023/11/22
+ -Embedded videos
+ - Contact redirect
+
+### 2023/11/24
+ - Edited details in Adoption
+ - Edited other needed details on each page
+
+### 2023/12/06
+ - Added Form in Adoption
+
