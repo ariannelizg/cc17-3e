@@ -36,7 +36,7 @@
  - Edited the dashboard
 
 ### 2023/11/22
- -Embedded videos
+ - Embedded videos
  - Contact redirect
 
 ### 2023/11/24
